@@ -5,7 +5,7 @@ nav {
 
 nav a {
     color: white;
-    text-decoration: block;
+    text-decoration: none;
     padding: 20px;
 }
 
