@@ -25,7 +25,7 @@ img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    
+
 }
 
 p {
@@ -44,7 +44,7 @@ aside {
     background-color: #6c6eb2;
     color: #f3f0f0;
     text-align: center;
-    position: relative; 
+    position: relative;
 }
 
 aside img {
@@ -52,6 +52,7 @@ aside img {
     height: auto;
 
 }
+
 aside h2 {
     position: relative;
 }
