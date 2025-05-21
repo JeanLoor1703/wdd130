@@ -1,4 +1,4 @@
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -25,12 +25,11 @@ img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float:;
-    margin: 0 0 1rem 1rem;
+    
 }
 
 p {
-    padding: 0
+    padding: 0;
 }
 
 main {
