@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Contact Rapids Adventure for reservations, inquiries, and suggestions. Get in touch with our team today!" />
+    <meta name="author" content="JeanLoor1703" />
+    <meta name="viewport" content="width=840, initial-scale=1.0" />
+    <title>Contact Us | Rapids Adventure</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/rapids.jpeg" alt="Rapids Adventure Logo" />
+        <h1>Rapids Adventure</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="info-grid">
+                <div>
+                    <p><strong>Address:</strong><br>
+                        123 Rapids Ave,<br>
+                        Adventure City, CA 99999</p>
+                    <p><strong>Phone:</strong> <a href="tel:+1234567890">(123) 456-7890</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:info@rapidsadventure.com">info@rapidsadventure.com</a></p>
+                </div>
+                <div class="map-responsive">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2922535724315!2d-122.41941548468299!3d37.7749297797591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808dc1a70aaf%3A0x4f7e55d2e6d8e4c6!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1622941839883!5m2!1sen!2sus"
+                        width="250" height="180" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="profiles-gallery">
+                <figure>
+                    <img src="images/raftingheroe.jpg" alt="Maria - Tour Guide">
+                    <figcaption><strong>Maria</strong><br>Lead Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/raftingmaterials.jpg" alt="James - Safety Specialist">
+                    <figcaption><strong>James</strong><br>Safety Specialist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/raftingsports.jpg" alt="Linda - Customer Service">
+                    <figcaption><strong>Linda</strong><br>Customer Service</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Contact Us</h2>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-item column2">
+                    <label for="username">Your Name:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Your Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+                <fieldset>
+                    <legend>Purpose of Message</legend>
+                    <div class="form-item-radio">
+                        <input type="radio" id="inquiry" name="purpose" value="General Inquiry" required>
+                        <label for="inquiry">General Inquiry</label>
+                    </div>
+                    <div class="form-item-radio">
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div class="form-item-radio">
+                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </fieldset>
+                <div class="form-item">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Type your message here..."></textarea>
+                </div>
+                <div class="form-item form-checkbox">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rapids Adventure | JeanLoor1703</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook" /></a>
+            <a href="https://tiktok.com"><img src="images/tiktok.png" alt="TikTok" /></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram" /></a>
+        </nav>
+        <p>
+            <a href="images/contact-wireframe.png" target="_blank" style="color: #fff; text-decoration: underline;">Contact Page Wireframe</a>
+        </p>
+    </footer>
+</body>
+</html>
