@@ -79,40 +79,35 @@
         <section class="contact-form-section">
             <h2>Contact Us</h2>
             <form class="contact-form" action="#" method="post">
-                <div class="form-item column2">
-                    <label for="username">Your Name:</label>
-                    <input type="text" id="username" name="username" required>
-                </div>
-                <div class="form-item column2">
-                    <label for="useremail">Your Email:</label>
-                    <input type="email" id="useremail" name="useremail" required>
-                </div>
-                <fieldset>
-                    <legend>Purpose of Message</legend>
-                    <div class="form-item-radio">
-                        <input type="radio" id="inquiry" name="purpose" value="General Inquiry" required>
-                        <label for="inquiry">General Inquiry</label>
-                    </div>
-                    <div class="form-item-radio">
-                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                        <label for="reservation">Reservation Question</label>
-                    </div>
-                    <div class="form-item-radio">
-                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                        <label for="suggestion">Website Suggestion</label>
-                    </div>
-                </fieldset>
-                <div class="form-item">
-                    <label for="message">Your Message:</label>
-                    <textarea id="message" name="message" rows="4" required placeholder="Type your message here..."></textarea>
-                </div>
-                <div class="form-item form-checkbox">
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+            <div class="form-row">
+      <div class="form-item">
+        <label for="username">Your Name:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-item">
+        <label for="useremail">Your Email:</label>
+        <input type="email" id="useremail" name="useremail" required>
+      </div>
+    </div>
+    <fieldset>
+      <legend>Purpose of Message</legend>
+      <div class="form-radio-group">
+        <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label>
+        <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+        <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+      </div>
+    </fieldset>
+    <div class="form-item">
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" required placeholder="Type your message here..."></textarea>
+    </div>
+    <div class="form-item form-checkbox">
+      <input type="checkbox" id="subscribe" name="subscribe">
+      <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+    </div>
+    <button type="submit" class="contact-btn">Send Message</button>
+  </form>
+</section>
     </main>
 
     <footer>
@@ -123,7 +118,7 @@
             <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram" /></a>
         </nav>
         <p>
-            <a href="images/contact-wireframe.png" target="_blank" style="color: #e3e2ea; text-decoration: underline;">Contact Page Wireframe</a>
+            <a href="images/contact-wireframe.png" target="_blank" style="color: #efeef5; text-decoration: underline;">Contact Page </a>
         </p>
     </footer>
 </body>
