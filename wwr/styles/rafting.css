@@ -193,3 +193,75 @@ footer .socialmedia img {
 .socialmedia a {
   text-decoration: none;
 }
+.employee-profiles {
+    background: #dde9ec;
+    border-radius: 12px;
+    padding: 32px 12px 28px 12px;
+    margin: 40px 0 32px;
+    box-shadow: 0 2px 12px rgba(48,127,183,0.09);
+}
+
+.employee-profiles h2 {
+    color: #253b51;
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.profiles-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.employee-profiles figure {
+    background: #fff;
+    border-radius: 9px;
+    padding: 18px 12px 10px 12px;
+    box-shadow: 0 1px 8px rgba(48,127,183,0.10);
+    text-align: center;
+    width: 200px;
+    margin: 0;
+}
+
+.employee-profiles img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.employee-profiles figcaption {
+    margin-top: 6px;
+    color: #253b51;
+    font-size: 1.08em;
+    line-height: 1.3;
+    font-family: 'Noto Sans', Arial, sans-serif;
+}
+.contact-info {
+    margin: 40px 0 32px 0;
+    padding: 24px 18px 18px 18px;
+    background: transparent;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #253b51;
+}
+
+.contact-info p {
+    font-size: 1.15rem;
+    color: #222;
+    margin-bottom: 6px;
+}
+
+.contact-info a {
+    color: #1874ba;
+    text-decoration: underline;
+}
