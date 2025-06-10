@@ -412,7 +412,7 @@
     font-weight: 700;
     cursor: pointer;
     box-shadow: 0 2px 8px rgba(48,127,183,0.08);
-    transition: background .2s;
+    transition: background-color .2s;
     margin-top: 8px;
   }
 
