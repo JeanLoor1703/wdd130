@@ -408,7 +408,7 @@
   }
 
   .contact-btn {
-    background: var(--primary-color);
+    background: var(--secondary-color);
     color: #fff;
     border: none;
     border-radius: 7px;
@@ -422,7 +422,7 @@
   }
 
   .contact-btn:hover {
-    background: var(--secondary-color);
+    background:#193d5a;
   }
 
   @media (max-width: 900px) {
