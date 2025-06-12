@@ -330,7 +330,11 @@
   .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 22px;
+    gap: 12px;
+  }
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
   }
 
   .form-row {
@@ -340,11 +344,12 @@
   }
 
   .form-item {
-    flex: 1 1 220px;
+    flex: 1 1 20px;
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    margin-bottom: 0px;
   }
+
 
   .form-item label {
     font-weight: 600;
