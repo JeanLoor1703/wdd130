@@ -313,6 +313,7 @@
 
   .contact-form-section {
     background: #eaf5fa;
+    color: #151e36;
     padding: 32px 28px 28px 28px;
     border-radius: 14px;
     box-shadow: 0 4px 16px rgba(48,127,183,0.08);
@@ -409,7 +410,7 @@
 
   .contact-btn {
     background: var(--secondary-color);
-    color: #fff;
+    color: #307FB7;
     border: none;
     border-radius: 7px;
     padding: 12px 0;
