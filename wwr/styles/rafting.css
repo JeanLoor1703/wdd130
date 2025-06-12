@@ -307,7 +307,7 @@
     width: 340px;
     height: 220px;
     border: 2px solid var(--primary-color);
-    background: #fff;
+    background: #a1cad6;
     max-width: 90vw;
   }
 
@@ -367,7 +367,7 @@
     padding: 9px 12px;
     font-size: 1rem;
     font-family: var(--body-font);
-    background: #fff;
+    background: #cfe4f6;
     transition: border 0.2s;
   }
 
