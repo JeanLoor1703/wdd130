@@ -12,11 +12,13 @@
     padding: 0;
     box-sizing: border-box;
   }
-body {
-  font-family: var(--body-font), Roboto, sans-serif;
-  background: #e3f6fd;
-  color: #151e36;
-}
+
+  body {
+    font-family: var(--body-font), Roboto, sans-serif;
+    background: #e3f6fd;
+    color: #151e36;
+  }
+
   header,
   main,
   footer {
